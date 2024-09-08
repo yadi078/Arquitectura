@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura y Arquitectura de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #3c1053, #ad5389, #1d1d1b);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: #ffffff;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background: linear-gradient(90deg, #3c1053, #ad5389);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 2.5rem;
+            border-bottom: 5px solid #ad5389;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        h2, h3 {
+            text-transform: uppercase;
+            color: #fffa65;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .text {
+            flex: 1;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            max-width: 400px;
+            margin: 20px;
+        }
+        footer {
+            background: linear-gradient(90deg, #3c1053, #ad5389);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 5px solid #ad5389;
+            letter-spacing: 1px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            font-size: 1.1rem;
+            padding: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            margin: 5px 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Arquitectura y Arquitectura de Software
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="arquitectura.jpg" alt="Imagen de Arquitectura" class="image">
+            <div class="text">
+                <h2>¿Qué es una arquitectura?</h2>
+                <p>La arquitectura (del latín architectūra, architectūrae, y este a su vez del griego antiguo ἀρχιτέκτων, architéctōn, ‘arquitecto’ o ‘constructor jefe’, compuesto de ἀρχός, archós ‘jefe’, ‘guía’, y τέκτων, téctōn, ‘constructor’) es el arte y la técnica de proyectar, diseñar y construir,1​ modificando el hábitat humano, estudiando la estética, el buen uso y la función de los espacios, ya sean arquitectónicos, urbanos o de paisaje.</p>
+
+                <p>La arquitectura nació en la prehistoria, durante el Neolítico, cuando diversos grupos humanos desarrollaron un estilo de vida sedentario basado en la agricultura. Este nuevo modo de vida conllevó al desarrollo de viviendas estables y recintos ceremoniales,2​ los cuales fueron evolucionando estéticamente a partir de elementos simbólicos presentes en el contexto sociocultural donde se desarrollaban en ese momento. Así surgieron, por ejemplo, los dolmenes y crómlechs en Europa, construidos con enormes bloques de piedra. A medida que las sociedades se hacían más complejas y extensas, surgieron los primeros núcleos urbanos cerrados, con viviendas agrupadas en torno a lugares sagrados. De esta forma nacieron las altas culturas de Oriente Medio: Mesopotamia y Egipto, que legaron numerosas obras arquitectónicas, de las que destacan, por ejemplo, los sistemas de irrigación, los zigurats, los templos y las pirámides.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text">
+                <h2>¿Qué es una arquitectura de software?</h2>
+                <p>En los inicios de la Ingeniería de Software, el desarrollo de software se realizaba libremente, pero con el tiempo se han ido descubriendo y desarrollando nuevos modelos y estándares​, con base a los cuales se puedan resolver las problemáticas modernas. A estos, se les ha denominado arquitectura de software, porque, a semejanza de los planos de un edificio o construcción, estas indican la estructura, funcionamiento e interacción entre las partes del software. En el libro "An introduction to Software Architecture", David Garlan y Mary Shaw definen que la arquitectura es un nivel de diseño que hace foco en aspectos "más allá de los algoritmos y estructuras de datos de la computación; el diseño y especificación de la estructura global del sistema es un nuevo tipo de problema".</p>
+            </div>
+            <img src="arquitectura.png" alt="Imagen de Arquitectura de Software" class="image">
+        </div>
+
+        <h3>Bibliografía</h3>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Arquitectura" target="_blank">Wikipedia. (2024). Arquitectura. Disponible en: https://es.wikipedia.org/wiki/Arquitectura</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Arquitectura_de_software" target="_blank">Wikipedia. (2024). Arquitectura de software. Disponible en: https://es.wikipedia.org/wiki/Arquitectura_de_software</a></li>
+
+
+        </ul>
+    </main>
+
+    <footer>
+        Autores: Yadira Lizeth Suárez Salazar, José Armando Valenzuela Olivares, Erick Oswaldo Nieto Méndez
+    </footer>
+</body>
+</html>
